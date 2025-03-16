@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(38, 38, 67);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin: 20px;
+    margin-top: 40px;
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.display{
+    font-size: 9rem;
+    font-family:Roboto;
+    font-weight: 600;
+    color: white;
+}
+.controls{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 180px;
+    font-size: 2.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+}
+.start-btn{
+    background: green;
+}
+.reset-btn{
+    background: yellow;
+}
+.stop-btn{
+    background: red;
+}
+button:hover{
+    background: #828282;
+}
